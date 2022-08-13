@@ -14,7 +14,6 @@ function update() {
     const followers = res.data.ProfileData.Followers
     const following = res.data.ProfileData.Following
 
-    console.log(res.data)
     client.updatePresence({
         state:  followers + " followers | " + following + " following",
         details: res.data.User,
