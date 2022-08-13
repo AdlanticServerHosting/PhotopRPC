@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "discord-rich-presence": "^0.0.8"
+  }
+}
